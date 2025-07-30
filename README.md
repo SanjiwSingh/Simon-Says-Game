@@ -20,3 +20,9 @@ A simple and fun **Simon Says** memory game built with **HTML**, **CSS**, and **
 3. Repeat the pattern by clicking the buttons in the correct order.
 4. The pattern gets longer with each round.
 5. Game over if you press the wrong button!
+
+## 📁 Setup Instructions
+1. Clone this repository:
+   ```bash
+   git clone https://sanjiwsingh.github.io/Simon-Says-Game/
+   
