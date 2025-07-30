@@ -23,5 +23,5 @@ A simple and fun **Simon Says** memory game built with **HTML**, **CSS**, and **
 
 ## 🔗 Live Demo
 
-[Click here to play the Simon Says Game](https://yourusername.github.io/simon-says-game/)
+[Click here to play the Simon Says Game](https://sanjiwsingh.github.io/Simon-Says-Game/)
    
