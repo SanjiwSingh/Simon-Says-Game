@@ -1,22 +1,35 @@
-# Simon Says Game 🎮
+Simon Says Game
+Welcome to the Simon Says Game! This project is a simple implementation of the classic memory game using HTML, CSS, and JavaScript.
 
-A simple and fun **Simon Says** memory game built with **HTML**, **CSS**, and **JavaScript**. Test your memory by repeating an increasingly complex sequence of colors and sounds!
+Play the Game 💜💛💙❤️
+You can play the game here.
 
-## 🚀 Features
-- Interactive color buttons
-- Randomized pattern each round
-- Sound and animation feedback
-- Score tracking
+How to Play 🎮
+Start the Game:
+To start the game, press any key on the keyboard.
+Watch the Sequence:
+One of the four colored boxes will flash.
+Remember the sequence of the flashed boxes.
+Repeat the Sequence:
+Click the boxes in the same order as they flashed.
+If you repeat the sequence correctly, the game will proceed to the next round and add another flash to the sequence.
+Continue the Sequence:
+Each round adds a new box to the sequence.
+Keep repeating the sequence correctly to advance to higher rounds.
+Game Over:
+If you click the wrong box, the game ends.
+Your score, which is the number of rounds you completed, will be displayed.
+To restart the game, press any key on the keyboard again.
+Project Structure 🚀
+The project consists of the following files:
 
-## 🖥️ Tech Stack
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-
-
-## 🎯 How to Play
-1. Click **Start** to begin the game.
-2. Watch the pattern of lights.
-3. Repeat the pattern by clicking the buttons in the correct order.
-4. The pattern gets longer with each round.
-5. Game over if you press the wrong button!
+index.html: The main HTML file containing the structure of the game.
+styles.css: The CSS file for styling the game elements.
+script.js: The JavaScript file that contains the game logic.
+GamePlay Mechanics
+Sequence Generation: The game randomly selects one of the four boxes to flash in each round. The sequence of flashed boxes is stored and extended in each round.
+User Input: Users must click the boxes in the exact sequence as they flashed. The game checks the user input against the stored sequence.
+Feedback: The game provides visual feedback by flashing the body red to indicate the user entered the wrong sequence and displays the current score with a game over message when applicable.
+Responsive Design: The game is designed to be responsive. On smaller screens (less than 600px), a "Start" button will be displayed. Once the game starts, the button will disappear, and the level information will be displayed. If the user inputs a wrong sequence, the game over message will be displayed, and the user can restart the game by pressing the "Start" button again.
+🚀 About Me
+👋 Hi there! I'm Sinchana Chatterjee, an enthusiastic and determined B.Tech student with a fervent aspiration to excel as a Web Developer.
